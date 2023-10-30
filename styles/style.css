@@ -1,0 +1,285 @@
+/* Reset */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
+body,
+html {
+	width: 100%;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #000;
+	background-color: #fff;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+a:focus,
+button:focus {
+	outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+ul,
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+button,
+input[type="submit"] {
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
+	color: inherit;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+	outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+/* HEADER-------------------------------------------------------------- */
+.header {
+	background: url("../images/header-bg.png") no-repeat top right;
+	/* background-size: contain; */
+}
+
+.container {
+	width: 100%;
+	max-width: 1260px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.header-inner {
+	padding: 53px 0 54px;
+}
+
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-img {}
+
+/* MENU------------------------ */
+.menu {}
+
+.menu-list {
+	display: flex;
+	gap: 0 39px;
+}
+
+.menu-list-item {}
+
+.menu-list-link {
+	text-transform: uppercase;
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	padding-bottom: 8px;
+	border-bottom: 2px solid transparent;
+	transition: 0.8s ease;
+}
+
+.menu-list-link:hover {
+	border-color: #fff;
+}
+
+/* HEADER----------------- */
+.header-main {
+	display: flex;
+	padding-top: 29px;
+	padding: 0 80px 0;
+}
+
+.header-main-info {
+	width: 100%;
+	max-width: 415px;
+	padding-top: 82px;
+	font-family: "Oswald", sans-serif;
+	line-height: 1;
+}
+
+.header-title {
+	font-size: 60px;
+}
+
+.header-subtitle {
+	font-size: 20px;
+	margin: 40px 0 52px;
+}
+
+.header-btn {
+	padding: 14px 26px;
+	background-color: #68B738;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.header-main-img {
+	transform: translateX(-75px);
+}
+
+/* PROGRAMS-------------------- */
+.programs {
+	padding: 82px 0 71px;
+}
+
+.programs-inner {
+	display: flex;
+	justify-content: center;
+	gap: 0 80px;
+	flex-wrap: wrap;
+}
+
+.program-item {
+	padding: 41px 51px 55px 52px;
+	background-color: #f2f2f2;
+	max-width: 570px;
+	width: 100%;
+}
+
+.program-item-header {
+	display: flex;
+	align-items: center;
+	gap: 0 62px;
+}
+
+.program-item-img {}
+
+.program-item-title {
+	font-family: "Oswald", sans-serif;
+	font-size: 36px;
+	line-height: 1;
+}
+
+.program-item-text {
+	padding: 39px 0 27px;
+}
+
+.program-item-link {
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: #000;
+	padding: 4px 8px 4px 0;
+	transition: .5s ease;
+}
+
+.program-item-link:hover {
+	opacity: .7;
+}
+
+.program-item-link span {
+	margin-left: 28px;
+}
+
+/* SECTION--------------------------------------------- */
+.section-title {
+	font-family: "Oswald";
+	font-size: 60px;
+	line-height: 1;
+}
+
+.section-text {
+	color: #444;
+}
+
+/* WORK----------------------------------------------- */
+.work {
+	margin-bottom: 11px;
+}
+
+.work-inner {}
+
+.work-list {
+	margin-top: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.work-item {
+	padding: 40px 29px 57px 0;
+	width: 100%;
+	max-width: 250px;
+}
+
+.work-item:first-child {
+	background: url("../images/1.png") no-repeat right;
+}
+
+.work-item:nth-child(2) {
+	background: url("../images/2.png") no-repeat right;
+}
+
+.work-item:nth-child(3) {
+	background: url("../images/3.png") no-repeat right;
+}
+
+.work-item:last-child {
+	background: url("../images/4.png") no-repeat right;
+}
+
+.work-img {
+	margin-bottom: 31px;
+}
