@@ -79,3 +79,13 @@ afterBtn.addEventListener('click', () => {
 	catAfter.style.width = '100%'
 	progressInput.value = 100
 })
+
+// Menu
+
+const menuBtn = document.querySelector('.menu-btn');
+const menu = document.querySelector('.menu-list');
+menuBtn.addEventListener('click', () => {
+	menu.classList.toggle('active');
+	menuBtn.classList.toggle('active');
+	document.querySelector('html').classList.toggle('active');
+})
